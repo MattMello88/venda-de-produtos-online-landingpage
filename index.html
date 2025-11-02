@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transforme suas memórias em um álbum fotográfico feito à mão. Edição premium com capa personalizada e papel fotográfico de alta qualidade.">
+    <title>Álbuns Fotográficos Premium - Transforme suas Memórias</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts - Playfair Display (serif) para títulos e Inter (sans-serif) para textos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bege': '#F5F1E8',
+                        'bege-escuro': '#E8E0D1',
+                        'marrom': '#8B7355',
+                        'marrom-escuro': '#6B5A3F',
+                        'cinza': '#E5E5E5',
+                        'dourado': '#D4AF37',
+                        'vinho': '#722F37',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-bege text-gray-800">
+    
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-bege to-bege-escuro px-4 py-20">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <!-- Texto -->
+            <div class="text-center md:text-left space-y-6">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-marrom-escuro leading-tight">
+                    Transforme suas memórias em um álbum fotográfico feito à mão.
+                </h1>
+                <p class="text-xl md:text-2xl text-marrom leading-relaxed">
+                    Edição premium com capa personalizada e papel fotográfico de alta qualidade.
+                </p>
+                <a href="https://sualoja.nuvemshop.com.br/album-premium" 
+                   target="_blank" 
+                   class="inline-block bg-vinho hover:bg-vinho/90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    Ver modelos disponíveis
+                </a>
+            </div>
+            
+            <!-- Imagem Hero -->
+            <div class="relative">
+                <div class="bg-gradient-to-br from-marrom/20 to-vinho/10 rounded-2xl p-8 shadow-2xl">
+                    <!-- Placeholder para imagem do álbum - substitua pela imagem real -->
+                    <div class="bg-white rounded-lg shadow-xl p-6 aspect-[3/4] flex items-center justify-center">
+                        <div class="text-center space-y-4">
+                            <svg class="w-24 h-24 mx-auto text-marrom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                            <p class="text-marrom text-sm">Álbum fotográfico</p>
+                            <p class="text-gray-500 text-xs">Substitua por foto real</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- História e Emoção -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-marrom-escuro mb-6">
+                As melhores lembranças merecem mais do que ficar na nuvem
+            </h2>
+            <p class="text-xl text-marrom leading-relaxed max-w-2xl mx-auto">
+                Reviva seus momentos mais especiais folheando um álbum físico feito com cuidado e carinho.
+            </p>
+            
+            <!-- Imagem de bastidores -->
+            <div class="mt-12 rounded-xl overflow-hidden shadow-xl max-w-2xl mx-auto">
+                <div class="bg-gradient-to-br from-bege-escuro to-marrom/30 aspect-video flex items-center justify-center">
+                    <div class="text-center text-marrom">
+                        <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                        <p class="text-sm">Foto de bastidores da produção</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modelos e Opções -->
+    <section class="py-20 px-4 bg-bege">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-marrom-escuro text-center mb-12">
+                Escolha o modelo ideal para suas memórias
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Álbum Clássico -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="bg-gradient-to-br from-marrom/20 to-bege-escuro h-64 flex items-center justify-center">
+                        <svg class="w-20 h-20 text-marrom" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-2xl font-bold text-marrom-escuro">Álbum Clássico</h3>
+                        <p class="text-marrom">Design elegante, ideal para casamentos e aniversários.</p>
+                        <a href="https://sualoja.nuvemshop.com.br/album-classico" 
+                           target="_blank"
+                           class="block w-full bg-dourado hover:bg-dourado/90 text-white text-center px-6 py-3 rounded-lg font-semibold transition-all duration-300">
+                            Comprar agora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Álbum Luxo -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="bg-gradient-to-br from-vinho/20 to-marrom/20 h-64 flex items-center justify-center">
+                        <svg class="w-20 h-20 text-vinho" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-2xl font-bold text-marrom-escuro">Álbum Luxo</h3>
+                        <p class="text-marrom">Capa de couro sintético e personalização total.</p>
+                        <a href="https://sualoja.nuvemshop.com.br/album-luxo" 
+                           target="_blank"
+                           class="block w-full bg-vinho hover:bg-vinho/90 text-white text-center px-6 py-3 rounded-lg font-semibold transition-all duration-300">
+                            Comprar agora
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mini Álbuns -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="bg-gradient-to-br from-dourado/20 to-bege-escuro h-64 flex items-center justify-center">
+                        <svg class="w-20 h-20 text-dourado" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-2xl font-bold text-marrom-escuro">Mini Álbuns</h3>
+                        <p class="text-marrom">Perfeitos para presentes e lembranças.</p>
+                        <a href="https://sualoja.nuvemshop.com.br/mini-albuns" 
+                           target="_blank"
+                           class="block w-full bg-dourado hover:bg-dourado/90 text-white text-center px-6 py-3 rounded-lg font-semibold transition-all duration-300">
+                            Comprar agora
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-marrom-escuro text-center mb-12">
+                O que nossos clientes dizem
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Depoimento 1 -->
+                <div class="bg-bege rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4 space-x-4">
+                        <div class="w-16 h-16 bg-marrom/20 rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 text-marrom" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-marrom-escuro">Maria Silva</h4>
+                            <p class="text-sm text-marrom">Cliente satisfeita</p>
+                        </div>
+                    </div>
+                    <p class="text-marrom italic">"Ficou simplesmente perfeito! Entrega rápida e acabamento incrível."</p>
+                    <div class="mt-4 text-dourado">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="bg-bege rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4 space-x-4">
+                        <div class="w-16 h-16 bg-marrom/20 rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 text-marrom" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-marrom-escuro">João Santos</h4>
+                            <p class="text-sm text-marrom">Cliente satisfeito</p>
+                        </div>
+                    </div>
+                    <p class="text-marrom italic">"A qualidade superou todas as expectativas. Recomendo para todos!"</p>
+                    <div class="mt-4 text-dourado">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="bg-bege rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4 space-x-4">
+                        <div class="w-16 h-16 bg-marrom/20 rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 text-marrom" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-marrom-escuro">Ana Costa</h4>
+                            <p class="text-sm text-marrom">Cliente satisfeita</p>
+                        </div>
+                    </div>
+                    <p class="text-marrom italic">"Presente perfeito! A pessoa amou e a qualidade é excepcional."</p>
+                    <div class="mt-4 text-dourado">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chamada para Ação Final -->
+    <section class="py-20 px-4 bg-gradient-to-br from-marrom-escuro to-vinho text-white">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-3xl md:text-5xl font-bold leading-tight">
+                Suas memórias merecem um lugar especial.
+            </h2>
+            <p class="text-2xl md:text-3xl">
+                📸 Crie seu álbum agora mesmo!
+            </p>
+            <a href="https://sualoja.nuvemshop.com.br/album-premium" 
+               target="_blank"
+               class="inline-block bg-dourado hover:bg-dourado/90 text-white px-10 py-5 rounded-lg text-xl font-bold transition-all duration-300 transform hover:scale-110 shadow-2xl">
+                Escolher meu modelo
+            </a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-marrom-escuro text-bege py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Sobre -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Sobre Nós</h3>
+                    <p class="text-bege/80">
+                        Transformamos suas memórias mais preciosas em álbuns físicos únicos, feitos com cuidado e dedicação.
+                    </p>
+                </div>
+
+                <!-- Links Úteis -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links Úteis</h3>
+                    <ul class="space-y-2 text-bege/80">
+                        <li><a href="https://sualoja.nuvemshop.com.br/politica-de-privacidade" target="_blank" class="hover:text-dourado transition-colors">Política de Privacidade</a></li>
+                        <li><a href="https://sualoja.nuvemshop.com.br/termos-de-uso" target="_blank" class="hover:text-dourado transition-colors">Termos de Uso</a></li>
+                        <li><a href="https://sualoja.nuvemshop.com.br/politica-de-troca" target="_blank" class="hover:text-dourado transition-colors">Política de Troca</a></li>
+                        <li><a href="https://sualoja.nuvemshop.com.br/frete-e-entrega" target="_blank" class="hover:text-dourado transition-colors">Frete e Entrega</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contato -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contato</h3>
+                    <ul class="space-y-3 text-bege/80">
+                        <li>
+                            <a href="https://wa.me/5511999999999" target="_blank" class="flex items-center space-x-2 hover:text-dourado transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                                </svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:contato@sualoja.com.br" class="flex items-center space-x-2 hover:text-dourado transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                <span>contato@sualoja.com.br</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Redes Sociais -->
+            <div class="border-t border-bege/20 pt-8">
+                <div class="flex justify-center space-x-6 mb-6">
+                    <a href="https://instagram.com/sualoja" target="_blank" class="text-bege/80 hover:text-dourado transition-colors" aria-label="Instagram">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com/sualoja" target="_blank" class="text-bege/80 hover:text-dourado transition-colors" aria-label="Facebook">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="https://pinterest.com/sualoja" target="_blank" class="text-bege/80 hover:text-dourado transition-colors" aria-label="Pinterest">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.373 0 0 5.372 0 12s5.373 12 12 12c5.084 0 9.426-3.163 11.174-7.637-.15-.791-.356-1.748-.617-2.677-.222.968-.823 2.168-1.355 2.907-.641.897-1.219 1.705-2.176 1.705-1.418 0-2.485-1.293-2.485-3.018 0-2.409 1.73-4.26 4.233-4.26 1.966 0 3.148 1.124 3.148 2.62 0 2.003-1.264 3.693-3.133 3.693-.627 0-1.217-.328-1.419-.729 0 0-.312 1.19-.388 1.478-.14.532-.437 1.005-.797 1.407-.598.636-1.354 1.078-2.18 1.078-1.785 0-3.197-1.861-3.197-4.522 0-3.638 2.658-6.984 7.653-6.984 4.01 0 7.136 2.857 7.136 6.682 0 3.984-2.513 7.189-5.998 7.189-1.209 0-2.343-.629-2.734-1.759l-.743 2.843c-.269 1.045-1.004 2.352-1.496 3.146 1.13.348 2.321.535 3.554.535 6.627 0 12-5.373 12-12S18.627 0 12 0z"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="text-center text-bege/60 text-sm">
+                    © 2024 Sua Loja. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
